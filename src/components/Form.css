@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-input {
+    height: 24px;
+}
+
+.todo-submit,
+select {
+    height: 30px;
+}
+
+.todo-submit {
+    margin: 0 5px;
+    width: 75px;
+}
+
+select {
+    text-align: center;
+}
+

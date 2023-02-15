@@ -1,4 +1,6 @@
 import React from 'react';
+import Form from "./components/Form";
+
 import './App.css';
 
 function App() {
@@ -7,7 +9,7 @@ function App() {
       <header className="App-header">
         <h1>To-do List</h1>
         <div className='todo-list'>
-          
+          <Form />
         </div>
       </header>
     </div>
