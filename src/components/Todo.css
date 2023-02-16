@@ -16,6 +16,11 @@ li {
     text-align: left;
 }
 
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
 .trash {
     height: 30px;
     margin: 0 0;
