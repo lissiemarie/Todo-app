@@ -1,0 +1,43 @@
+.Todo {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    color: black;
+    height: 30px;
+    width: 300px;
+    margin-right: 65px;
+}
+
+li {
+    margin: 0 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.trash {
+    height: 30px;
+    margin: 0 0;
+    background-color: red;
+    border: none;
+    transition: 300ms all ease-in-out;
+}
+
+.trash:hover {
+    background-color: #ff000050;
+    transition: 300ms all ease-in-out;
+}
+
+.check {
+    height: 30px;
+    margin: 0 0 0 auto;
+    background-color: green;
+    border: none;
+    transition: 300ms all ease-in-out;
+}
+
+.check:hover {
+    background-color: #00ff0070;
+    transition: 300ms all ease-in-out;
+}
